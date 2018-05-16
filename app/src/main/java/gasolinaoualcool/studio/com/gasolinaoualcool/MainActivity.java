@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         botaoVerificar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //recuperar os valores digitado
+                //recuperar os valores digitado pelo usuario
                 String textoPrecoAlcool = precoAlcool.getText().toString();
                 String textoPrecoGasolina = precoGasolina.getText().toString();
 
